@@ -2,7 +2,7 @@
 
 const nameBox = document.getElementById(`fname`);
 
-nameBox.addEventListener(`input`, () => {
+nameBox.addEventListener(`change`, () => {
     const text = nameBox.value;
     nameBox.value = text.toUpperCase();
 
